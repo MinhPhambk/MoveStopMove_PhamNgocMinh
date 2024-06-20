@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad93a7b17d80fa468c9facbdcc44283, type: 3}
+  m_Name: ListMaterial
+  m_EditorClassIdentifier: 
+  pantMaterials:
+  - {fileID: 2100000, guid: 2b81f79ad5e5e42408210e665084a5ac, type: 2}
+  - {fileID: 2100000, guid: ab2ad92a030ffb24fa9993a609b496c0, type: 2}
+  - {fileID: 2100000, guid: d136ec8ab142f7d4bbbc3b655f3f6923, type: 2}
+  - {fileID: 2100000, guid: 0af75eb14fe848e429494be413038ddb, type: 2}
+  - {fileID: 2100000, guid: 8ccbdd32e51a5f3408daaa1d8e5da6f5, type: 2}
+  - {fileID: 2100000, guid: 10c65de08d785f54a95df53fdf6a5281, type: 2}
+  - {fileID: 2100000, guid: 8c373f807aa3e7441b5c1e1f5604cf40, type: 2}
+  - {fileID: 2100000, guid: 70de54831f9daca408f31ab83159df31, type: 2}
+  - {fileID: 2100000, guid: 5f96eef236542d44cbbf98f59c7f2edc, type: 2}
+  weaponMaterials: []

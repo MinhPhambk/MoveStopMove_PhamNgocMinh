@@ -49,7 +49,6 @@ public static class ParticlePool
 
                 //save prefab
                 UnityEditor.Undo.RegisterCompleteObjectUndo(prefab, "Fix To Not Loop");
-                Debug.Log(prefab.name + " ~ Fix To Not Loop");
             } 
             
             if (prefab.main.playOnAwake)
@@ -59,7 +58,6 @@ public static class ParticlePool
 
                 //save prefab
                 UnityEditor.Undo.RegisterCompleteObjectUndo(prefab, "Fix To Not PlayAwake");
-                Debug.Log(prefab.name + " ~ Fix To Not PlayAwake");
             }
 
             if (prefab.main.stopAction != ParticleSystemStopAction.None)
