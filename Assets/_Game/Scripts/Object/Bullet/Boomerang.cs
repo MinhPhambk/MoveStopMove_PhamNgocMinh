@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Boomerang : Bullet
 {
-    public override void OnInit(Vector3 direction)
+    public override void OnInit(Vector3 direction, Character c)
     {
-        base.OnInit(direction);
+        base.OnInit(direction, c);
     }
 
     protected override void OnTriggerEnter(Collider other)

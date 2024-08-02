@@ -13,7 +13,7 @@ public class MaterialObject : GameUnit
         if (matType != material)
         {
             material = matType;
-            render.material = mats.GetMaterial(material);
+            render.material = mats.GetMaterial(material);   
         }
     }
 }

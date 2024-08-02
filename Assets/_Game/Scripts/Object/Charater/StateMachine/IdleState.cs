@@ -18,5 +18,4 @@ public class IdleState : IState<Bot>
     {
 
     }
-
 }

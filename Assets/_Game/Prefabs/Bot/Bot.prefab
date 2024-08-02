@@ -1328,7 +1328,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3078998663431744378}
   - component: {fileID: 6279699924770418355}
-  - component: {fileID: 1431356022661316610}
   m_Layer: 0
   m_Name: AttackChoosed
   m_TagString: Untagged
@@ -1346,8 +1345,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.25}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7978244360679534471}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
@@ -1403,27 +1402,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!135 &1431356022661316610
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4259901823873633524}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 1.2800003
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4268226154544551928
 GameObject:
   m_ObjectHideFlags: 0
@@ -1597,8 +1575,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.1577199, z: 1}
-  m_Center: {x: 0, y: 1.0675005, z: 0}
+  m_Size: {x: 0.24324226, y: 2.1577199, z: 0.4284448}
+  m_Center: {x: -0.016306363, y: 1.0675005, z: 0.059854705}
 --- !u!114 &5979758405162701238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2312,6 +2290,7 @@ MonoBehaviour:
   attackPosition: {fileID: 8216835542820907756}
   speed: 4
   anim: {fileID: 3518555444586304372}
+  animObject: {fileID: 4531423494008883916}
   rb: {fileID: 5165669868844734214}
   groundLayer:
     serializedVersion: 2
@@ -2438,7 +2417,7 @@ Transform:
   m_GameObject: {fileID: 8147636714220520110}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.086, y: 1.313, z: 0.448}
+  m_LocalPosition: {x: -0.03, y: 0.83, z: 0.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3317290508162339563}
   - component: {fileID: 1120837358907087407}
   - component: {fileID: 7365273291224802275}
+  - component: {fileID: -7834606068924108785}
   m_Layer: 0
   m_Name: Hammer_1
   m_TagString: Untagged
@@ -100,6 +101,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poolType: 5
   rb: {fileID: 7365273291224802275}
+  speed: 1
+  wallBorder:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!54 &7365273291224802275
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -122,8 +127,30 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &-7834606068924108785
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8038019352007786915}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 23168c0cd95023445a5ce120b9cba1c8, type: 3}

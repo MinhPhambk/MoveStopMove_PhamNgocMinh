@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 94253672}
   - component: {fileID: 94253671}
   - component: {fileID: 94253670}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube (2)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -648,9 +648,9 @@ GameObject:
   - component: {fileID: 331924185}
   - component: {fileID: 331924184}
   - component: {fileID: 331924183}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Minicube (2)
-  m_TagString: Wall
+  m_TagString: WallBorder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -753,7 +753,7 @@ GameObject:
   - component: {fileID: 381369900}
   - component: {fileID: 381369899}
   - component: {fileID: 381369898}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube (4)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1844,7 +1844,7 @@ GameObject:
   - component: {fileID: 746976238}
   - component: {fileID: 746976237}
   - component: {fileID: 746976236}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube (1)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -3311,7 +3311,7 @@ GameObject:
   - component: {fileID: 1477957527}
   - component: {fileID: 1477957526}
   - component: {fileID: 1477957525}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube (3)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -3429,7 +3429,7 @@ Transform:
   m_GameObject: {fileID: 1492203354}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.086, y: 1.313, z: 0.448}
+  m_LocalPosition: {x: -0.03, y: 0.83, z: 0.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3447,9 +3447,9 @@ GameObject:
   - component: {fileID: 1501193327}
   - component: {fileID: 1501193326}
   - component: {fileID: 1501193325}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Minicube (4)
-  m_TagString: Wall
+  m_TagString: WallBorder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3650,6 +3650,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515281519}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1552349179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1552349180}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1552349180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552349179}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.021527544, y: 2.4000118, z: -0.7868725}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590661844
 GameObject:
   m_ObjectHideFlags: 0
@@ -4390,9 +4421,9 @@ GameObject:
   - component: {fileID: 1792975517}
   - component: {fileID: 1792975516}
   - component: {fileID: 1792975515}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Minicube (5)
-  m_TagString: Wall
+  m_TagString: WallBorder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4756,7 +4787,7 @@ GameObject:
   - component: {fileID: 1959466920}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4799,6 +4830,7 @@ MonoBehaviour:
   attackPosition: {fileID: 1492203355}
   speed: 5
   anim: {fileID: 7444327588567617911}
+  animObject: {fileID: 4512963482310024699}
   rb: {fileID: 1959466920}
   groundLayer:
     serializedVersion: 2
@@ -4843,9 +4875,9 @@ GameObject:
   - component: {fileID: 1986413510}
   - component: {fileID: 1986413509}
   - component: {fileID: 1986413508}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Minicube (3)
-  m_TagString: Wall
+  m_TagString: WallBorder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -17066,7 +17098,7 @@ GameObject:
   - component: {fileID: 7444327588567617913}
   m_Layer: 0
   m_Name: Anim
-  m_TagString: Character
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17803,8 +17835,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.1577199, z: 1}
-  m_Center: {x: 0, y: 1.0675005, z: 0}
+  m_Size: {x: 0.24324226, y: 2.1577199, z: 0.4284448}
+  m_Center: {x: -0.016306363, y: 1.0675005, z: 0.059854705}
 --- !u!114 &7444327588567617913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18299,3 +18331,4 @@ SceneRoots:
   - {fileID: 4845085811587668}
   - {fileID: 426641184}
   - {fileID: 50141812}
+  - {fileID: 1552349180}

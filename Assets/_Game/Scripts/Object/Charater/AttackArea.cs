@@ -21,14 +21,14 @@ public class AttackArea : MonoBehaviour
         if (other.CompareTag(Constant.TAG_CHARACTER))
         {
             Character enemy = other.gameObject.GetComponent<Anim>().GetCharacter();
-            character.AddEnemy(enemy);
-            character.AttackEnemy(other.gameObject.transform.position);
+            character.AddEnemy(other.gameObject);
         }
     }
 
-    public void RemoveEnemy(Character enemy)
+    public void RemoveEnemy(GameObject enemy)
     {
-        character.SetActiveChoosed(false);
+        Character e = enemy.GetComponent<Character>();
+        e.SetActiveChoosed(false);
         character.RemoveEnemy(enemy);
     }
 }

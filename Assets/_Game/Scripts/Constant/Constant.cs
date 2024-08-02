@@ -7,5 +7,7 @@
     public static string ANIM_WIN = "win";
     
     public static string TAG_CHARACTER = "Character";
+    public static string TAG_PLAYER = "Player";
     public static string TAG_ATTACKRANGE = "AttackRange";
+    public static string TAG_WALL = "Wall";
 }

@@ -6,5 +6,8 @@ public class Anim : MonoBehaviour
 {
     [SerializeField] private Character character;
 
-    public Character GetCharacter() { return character; }
+    public Character GetCharacter() 
+    { 
+        return character; 
+    }
 }
